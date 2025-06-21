@@ -1,1 +1,13 @@
 d2xmlzNwSDSIuzqAM7SXBJ:APA91bHvo8i8kr-Ui6R3a4ainyKLPMtd0IgtSE5SI_-sFMWoVslpZLLOXnJbQaHCU_908p7Vy5My6194SqY3r3tXrse0nHSZxuFTot9JKf8dgCQqOv6mg8k
+
+
+public async Task<IEnumerable<T>> GetAllAsync()
+    {
+        string cacheKey = $"{typeof(T).Name}_All";
+        if (!_cache.TryGetValue(cacheKey, out IEnumerable<T> entities))
+        {
+            entities = await _dbSet.ToListAsync();
+            _cache.Set(cacheKey, entities, TimeSpan.FromMinutes(5)); // Cache for 5 minutes
+        }
+        return entities;
+    }
