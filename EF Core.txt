@@ -9,3 +9,8 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 
 ///Logging
 ///https://www.nikolatech.net/blogs/ef-core-simple-logging-in-dotnet
+
+///Global Exception Handling
+///https://www.nikolatech.net/blogs/global-exception-handling-in-dotnet
+///Check also results pattern
+
