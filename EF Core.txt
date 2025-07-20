@@ -14,3 +14,5 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 ///https://www.nikolatech.net/blogs/global-exception-handling-in-dotnet
 ///Check also results pattern
 
+///State Machine
+///https://www.youtube.com/watch?v=FhjNi7PGDaQ&t=28s
