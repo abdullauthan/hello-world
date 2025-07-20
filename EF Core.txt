@@ -7,3 +7,5 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             o => o.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery));
 }
 
+///Logging
+///https://www.nikolatech.net/blogs/ef-core-simple-logging-in-dotnet
