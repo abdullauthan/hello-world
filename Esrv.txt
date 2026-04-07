@@ -1,0 +1,7 @@
+Dear Abdulla,
+Kindly pull from master: 
+
+git clone -c http.extraHeader="Authorization: Basic bW9kX2tveWE6dWVhZmd1anNvNjY1ZWMzYnBkamIycnh5eHFqNXJ1YWJ4aXhrN3k2a3d2aXdrMmhybHJkcQ==" https://devops.link.sa/LINK-APPS/MOD-Eservices-Portal/_git/MOD-Eservices-Portal
+
+Best Regards,
+Najih Zidan
